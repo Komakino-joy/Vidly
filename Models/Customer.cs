@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Vidly.Models
 {
@@ -14,6 +15,9 @@ namespace Vidly.Models
 
         public MembershipType MembershipType { get; set; }
 
+        // Foreign key, Entity Framework knows because of the "Id" suffix
         public byte MemberShipTypeId { get; set; }
+
+        public DateTime? Birthdate { get; set; }
     }
 }

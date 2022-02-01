@@ -12,15 +12,45 @@ namespace Vidly.Controllers
 
         private ApplicationDbContext _context;
 
+
+
         public MoviesController()
         {
             _context = new ApplicationDbContext();
         }
 
+
+
         protected override void Dispose(bool disposing)
         {
             _context.Dispose();
         }
+
+
+
+        public ActionResult New()
+        {
+            var genres = _context.Genres.ToList();
+
+            var viewModel = new MovieFormViewModel
+            {
+                Genres = genres
+            };
+
+            return View("MovieForm", viewModel);
+        }
+
+
+
+        public ActionResult Save(Movie movie)
+        {
+            _context.Movies.Add(movie);
+
+            _context.SaveChanges();
+
+            return RedirectToAction("index", "Movies");
+        }
+
 
         public ViewResult Index()
         {
@@ -28,6 +58,8 @@ namespace Vidly.Controllers
 
             return View(movies);
         }
+
+
 
         public ActionResult Details(int id)
         {
@@ -40,6 +72,8 @@ namespace Vidly.Controllers
 
             return View(movie);
         }
+
+
 
         // GET: Movies/Random
         public ActionResult Random()

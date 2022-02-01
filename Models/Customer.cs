@@ -16,8 +16,10 @@ namespace Vidly.Models
         public MembershipType MembershipType { get; set; }
 
         // Foreign key, Entity Framework knows because of the "Id" suffix
+        [Display(Name = "Membership Type")]
         public byte MemberShipTypeId { get; set; }
 
+        [Display(Name = "Date of Birth")]
         public DateTime? Birthdate { get; set; }
     }
 }

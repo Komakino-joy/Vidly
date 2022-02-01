@@ -186,6 +186,30 @@
     <Compile Include="Migrations\202201312337191_AddNamesToMembershipTypes.designer.cs">
       <DependentUpon>202201312337191_AddNamesToMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202201312346523_InitialModel1.cs" />
+    <Compile Include="Migrations\202201312346523_InitialModel1.designer.cs">
+      <DependentUpon>202201312346523_InitialModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202201312350019_AddNamesToMembershipTypes1.cs" />
+    <Compile Include="Migrations\202201312350019_AddNamesToMembershipTypes1.designer.cs">
+      <DependentUpon>202201312350019_AddNamesToMembershipTypes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202010002010_InitialModel2.cs" />
+    <Compile Include="Migrations\202202010002010_InitialModel2.designer.cs">
+      <DependentUpon>202202010002010_InitialModel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202010003404_AddNamesToMembershipTypes2.cs" />
+    <Compile Include="Migrations\202202010003404_AddNamesToMembershipTypes2.designer.cs">
+      <DependentUpon>202202010003404_AddNamesToMembershipTypes2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202010005107_AddNameDataToMembershipTypes.cs" />
+    <Compile Include="Migrations\202202010005107_AddNameDataToMembershipTypes.designer.cs">
+      <DependentUpon>202202010005107_AddNameDataToMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202010007369_RenameTheDailyMembershipType.cs" />
+    <Compile Include="Migrations\202202010007369_RenameTheDailyMembershipType.designer.cs">
+      <DependentUpon>202202010007369_RenameTheDailyMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -308,6 +332,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202201312337191_AddNamesToMembershipTypes.resx">
       <DependentUpon>202201312337191_AddNamesToMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201312346523_InitialModel1.resx">
+      <DependentUpon>202201312346523_InitialModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202201312350019_AddNamesToMembershipTypes1.resx">
+      <DependentUpon>202201312350019_AddNamesToMembershipTypes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202010002010_InitialModel2.resx">
+      <DependentUpon>202202010002010_InitialModel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202010003404_AddNamesToMembershipTypes2.resx">
+      <DependentUpon>202202010003404_AddNamesToMembershipTypes2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202010005107_AddNameDataToMembershipTypes.resx">
+      <DependentUpon>202202010005107_AddNameDataToMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202010007369_RenameTheDailyMembershipType.resx">
+      <DependentUpon>202202010007369_RenameTheDailyMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

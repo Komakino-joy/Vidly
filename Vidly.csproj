@@ -242,6 +242,14 @@
     <Compile Include="Migrations\202202010334413_PopulateMovieTableData1.designer.cs">
       <DependentUpon>202202010334413_PopulateMovieTableData1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202020332065_UpdateMovieNameConstraints.cs" />
+    <Compile Include="Migrations\202202020332065_UpdateMovieNameConstraints.designer.cs">
+      <DependentUpon>202202020332065_UpdateMovieNameConstraints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202020344042_RemoveDateRequirementInMovieTable.cs" />
+    <Compile Include="Migrations\202202020344042_RemoveDateRequirementInMovieTable.designer.cs">
+      <DependentUpon>202202020344042_RemoveDateRequirementInMovieTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -412,6 +420,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202010334413_PopulateMovieTableData1.resx">
       <DependentUpon>202202010334413_PopulateMovieTableData1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202020332065_UpdateMovieNameConstraints.resx">
+      <DependentUpon>202202020332065_UpdateMovieNameConstraints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202020344042_RemoveDateRequirementInMovieTable.resx">
+      <DependentUpon>202202020344042_RemoveDateRequirementInMovieTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

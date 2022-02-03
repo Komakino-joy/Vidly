@@ -250,11 +250,16 @@
     <Compile Include="Migrations\202202020344042_RemoveDateRequirementInMovieTable.designer.cs">
       <DependentUpon>202202020344042_RemoveDateRequirementInMovieTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202030401228_ConvertedInStockToByte.cs" />
+    <Compile Include="Migrations\202202030401228_ConvertedInStockToByte.designer.cs">
+      <DependentUpon>202202030401228_ConvertedInStockToByte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\InStockMustBeGreaterThan0.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Min18YearsIfMember.cs" />
@@ -427,6 +432,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202020344042_RemoveDateRequirementInMovieTable.resx">
       <DependentUpon>202202020344042_RemoveDateRequirementInMovieTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202030401228_ConvertedInStockToByte.resx">
+      <DependentUpon>202202030401228_ConvertedInStockToByte.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

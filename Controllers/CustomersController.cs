@@ -44,6 +44,7 @@ namespace Vidly.Controllers
 
         // Specify that it can only be called with HttpPost
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
             if (!ModelState.IsValid)

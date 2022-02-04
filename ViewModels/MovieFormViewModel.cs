@@ -36,6 +36,7 @@ namespace Vidly.ViewModels
             }
         }
 
+        // Constructor for new movie, makes sure the hidden field in form is not blank. 
         public MovieFormViewModel()
         {
             Id = 0;
